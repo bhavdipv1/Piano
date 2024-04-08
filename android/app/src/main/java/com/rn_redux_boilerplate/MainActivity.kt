@@ -1,4 +1,4 @@
-package com.chat_prime;
+package com.piano_game;
 
 import com.facebook.react.ReactActivity
 import com.facebook.react.ReactActivityDelegate

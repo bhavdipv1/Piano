@@ -74,9 +74,9 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
-    namespace "com.chat_prime"
+    namespace "com.piano_game"
     defaultConfig {
-        applicationId "com.chat_prime"
+        applicationId "com.piano_game"
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
