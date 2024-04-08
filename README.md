@@ -1,18 +1,11 @@
 # ChatPrime
-  - Title: CharPrime App
-  - Description: ChatPrime app main goal is connect random person
-  - Author: Mayur Solanki
+
+- Title: Piano App
+- Author: Mayur Solanki
 
 ## Features
 
-- Login & Registration.
-- Data Store in Firebased with live database.
-- Video call
-- Send messages and Photos
-- Dark Mode
-- Profile Pick add
-- Password Protected
-- Chat With random person.
+- View Score
 
 ## Project Dependencies
 
@@ -27,19 +20,18 @@
 - Redux persist
 - Storybook
 
-
 ## Installation
 
 ### Clone this repo
 
 ```
-git clone https://github.com/0mayur1/ChatPrime.git
+git clone https://github.com/0mayur1/Piano.git
 ```
 
 ### Open project folder and install dependencies
 
 ```
-cd CharPrime
+cd Piano
 yarn
 or
 npm i
@@ -65,16 +57,12 @@ or
 npm run ios
 ```
 
-
 ## KeyStore Password
+
 ```
   G3n3r@te!Str0ngP@ssw0rd
 ```
 
-  
-
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE) file for details
-
-
