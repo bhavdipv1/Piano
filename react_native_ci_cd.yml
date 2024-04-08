@@ -30,7 +30,7 @@ jobs:
 
       - name: Build Debug APK (main branch)
         if: github.ref == 'refs/heads/main'
-        run: npx react-native run-android --variant=debug
+        run: cd android && ./gradlew assembleDebug
 
       - name: Build Release APK (Production branch)
         if: github.ref == 'refs/heads/Production'
