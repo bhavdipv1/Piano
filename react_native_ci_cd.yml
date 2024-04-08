@@ -34,7 +34,7 @@ jobs:
 
       - name: Build Release APK (Production branch)
         if: github.ref == 'refs/heads/Production'
-        run: npx react-native run-android --variant=release
+        run: cd android && ./gradlew assembleRelease
 
       - name: Generate AAB (Deployment branch)
         if: github.ref == 'refs/heads/Deployment'
